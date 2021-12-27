@@ -1,0 +1,229 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+
+
+
+/* STYLE TEXT */
+body{
+  background: #78bdd8;
+  min-height: 1500px;
+}
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 100px;
+  color: rgb(1, 39, 61);
+  padding: 5%;
+  position: relative;
+}
+
+p1{
+  font-family: serif;
+  font-size: 35px;
+  color: rgb(1, 39, 61);
+  text-align: center;
+  font-weight: bold;
+
+}
+h3{
+  font-family: serif;
+  font-size: 55px;
+  font-weight: bold;
+  margin-left: 25px;
+  padding: 3%;
+  color: rgb(1, 39, 61);
+  text-align: center;
+  }
+p2{
+  font-family: serif;
+  font-size: 35px;
+  font-weight: bold;
+  color:rgb(27, 79, 114);
+  text-align: center;
+}
+
+
+h4{
+  font-family: serif;
+  font-size: 65px;
+  font-weight: bold;
+  margin-left: 25px;
+  padding: 5%;
+  color: rgb(1, 39, 61);
+  text-align: center;
+}
+
+p3{
+  ont-family: serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(1, 39, 61);
+  text-align: center;
+}
+
+
+/* transparency */
+section:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background:  linear-gradient(to top, #78bdd8 , transparent);
+  z-index: 10000;
+ 
+}
+section:after{
+   content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:    #78bdd8;
+  z-index: 10000;
+  mix-blend-mode: color;
+}
+#text{
+  position: relative;
+  color: rgb(7, 7, 7);
+  font-size: 10em;
+  z-index: 1;
+}
+h7{
+  text-align: center;
+  font-family: serif;
+  font-size: 100px;
+  color: rgb(1, 39, 61);
+  padding: 5%;
+  position: relative;
+
+}
+
+/* STYLE IMAGES */
+section img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+/* STYLE NAV BAR */
+/* Position the navbar container inside the image */
+ul{
+  list-style-type: none;
+  background-color: #78bdd8;
+  overflow: hidden;
+  padding: 8px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 20px 0px;
+  align-items: right;
+  top: 0;
+}
+li{
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: rgb(1, 39, 61);
+  font-size: 1.4em;
+  padding: 1em;
+}
+li a:hover{
+  background-color: rgb(182, 229, 243);
+  box-shadow: 0 0 10px rgb(182, 229, 243);
+  border-radius: 50%;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 31.33%;
+  padding: 1%;
+  
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+a:hover { 
+  background-color: rgb(250, 250, 250);
+ box-shadow: 0 0 50px rgb(0, 0, 0);
+ 
+}
+
+#factBtn {
+  background: rgb(80, 125, 151);
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #ffffff;
+  font-size: 1em;
+
+  }
+
+  .genFact {
+  background-color:rgb(1, 39, 61);
+  border-radius:10px;
+  text-align: center;
+  align-items:center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style:bold;
+  font-size:20px;
+  padding:40px;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: rgb(85, 117, 167)
+
+}
+
+p7{
+  text-align: center;
+ font-size: 25px;
+ font-family: serif;
+ color: white;
+  
+
+}
